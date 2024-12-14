@@ -1,0 +1,87 @@
+.reviewCard {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px auto;
+  width: 900px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #555;
+}
+
+.reviewerInfo {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.reviewerName {
+  font-weight: bold;
+  margin: 0;
+}
+
+.reviewDate {
+  font-size: 12px;
+  color: #999;
+}
+
+.googleLogo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.cardBody {
+  margin-top: 10px;
+}
+
+.starRating {
+  color: #ffcc00;
+  /* margin-bottom: 10px; */
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.reviewText {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 5;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.readMore {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.readMore:hover {
+  text-decoration: underline;
+}
